@@ -62,7 +62,7 @@ public class CardDeliveryTest {
     void shouldCardDeliveryWithEngName() {
         open("http://localhost:9999");
         $("[placeholder='Город']").setValue(DataGenerator.Registration.generateData("ru").getCity());
-        $("[name='name']").setValue("Cavendish Henry");
+        $("[name='name']").setValue("Tom Cruz");
         $("[name='phone']").setValue(DataGenerator.Registration.generateData("ru").getPhone());
         $("[class=checkbox__box]").click();
         $(".button_view_extra").click();
@@ -73,7 +73,7 @@ public class CardDeliveryTest {
     void shouldCardDeliveryWithRusName() {
         open("http://localhost:9999");
         $("[placeholder='Город']").setValue(DataGenerator.Registration.generateData("ru").getCity());
-        $("[name='name']").setValue("Семёнов Роман");
+        $("[name='name']").setValue("Фёдоров Илья");
         $("[name='phone']").setValue(DataGenerator.Registration.generateData("ru").getPhone());
         $("[class=checkbox__box]").click();
         $(".button_view_extra").click();
