@@ -2,11 +2,11 @@ package ru.netology;
 
 import com.github.javafaker.Faker;
 
-import java.lang.reflect.Array;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
+
 
 public class DataGenerator {
     private DataGenerator() {
